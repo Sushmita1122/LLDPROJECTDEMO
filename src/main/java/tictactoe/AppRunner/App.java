@@ -22,7 +22,7 @@ public class App {
         List<Player> playerList = new ArrayList<>();
         List<WinningStrategy> winningStrategies = new ArrayList<>();
 
-        playerList.add(new Player('X', "Keerthi", 1, PlayerType.HUMAN));
+        playerList.add(new Player('X', "Sushmita", 1, PlayerType.HUMAN));
         playerList.add(new Bot('0', "GPT", 2, PlayerType.BOT, BotDifficultyLevel.EASY));
 
         winningStrategies.add(new RowWinningStrategy());
